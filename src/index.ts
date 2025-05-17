@@ -1,3 +1,9 @@
+import type {
+  WriteProps,
+  WriteWithExpProps,
+  LocalStorageResponse,
+} from './types';
+
 export class LocalStorage {
   // read from local storage
   static write({ key, value }: WriteProps): void {

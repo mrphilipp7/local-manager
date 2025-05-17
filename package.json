@@ -20,6 +20,11 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrphilipp7/local-manager.git"
+  },
+  "homepage": "https://github.com/mrphilipp7/local-manager.git#readme",
   "keywords": [
     "local-storage"
   ]
