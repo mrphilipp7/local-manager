@@ -1,0 +1,10 @@
+# Ignore the following files and directories when publishing the package
+*.log
+node_modules/
+tests/
+src/
+tsconfig.json
+tsconfig.build.json
+*.ts
+*.map
+*.md

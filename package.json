@@ -1,0 +1,26 @@
+{
+  "name": "local-manager",
+  "module": "index.ts",
+  "type": "module",
+  "main": "./dist/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist",
+    "build:types": "tsc -p tsconfig.build.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [
+    "local-storage"
+  ]
+}
