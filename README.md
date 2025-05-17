@@ -1,15 +1,15 @@
 # local-manager
 
-To install dependencies:
+A type-safe package that delivers helper functions to make dealing with local storage easier.
 
-```bash
-bun install
-```
+Functions include
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.13. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1. write
+2. read
+3. delete
+4. clear
+5. update
+6. has
+7. writeWithExpiry
+8. readWithExpiry
+9. cleanExpired
