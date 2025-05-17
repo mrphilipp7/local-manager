@@ -1,5 +1,6 @@
 {
   "name": "local-manager",
+  "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
   "main": "./dist/index.js",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/mrphilipp7/local-manager.git#readme",
   "keywords": [
-    "local-storage"
+    "local-storage",
+    "storage"
   ]
 }
